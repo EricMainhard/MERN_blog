@@ -1,0 +1,9 @@
+.category__label{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: var(--hover-orange);
+    color: white;
+    padding: 1rem;
+    letter-spacing: 1px;
+}

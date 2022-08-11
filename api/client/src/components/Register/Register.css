@@ -1,0 +1,40 @@
+.register{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register__title{
+    font-size: 3rem;
+}
+
+.register__form{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+}
+
+.register__label{
+    font-size: 1.5rem;
+}
+
+.register__input{
+    border-radius: .5rem;
+    outline: none;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+}
+
+.register__submit{
+    margin: 2rem;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background: none;
+}

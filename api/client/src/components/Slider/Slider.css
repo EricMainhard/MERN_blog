@@ -1,0 +1,39 @@
+.slider{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider > img {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    animation-name: fadeImage;
+    animation-duration: 1s;
+}
+
+.slider__leftArrow, .slider__rightArrow{
+    position: absolute;
+    top: 50%;
+    background: var(--main-background);
+    padding: .5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.slider__leftArrow{
+    left: 5%;
+}
+
+.slider__rightArrow{
+    right: 5%;
+}
+
+@keyframes fadeImage{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

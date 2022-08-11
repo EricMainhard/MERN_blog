@@ -1,0 +1,38 @@
+.newsletter{
+    background-color: #29333c;
+    padding: 3rem;
+}
+
+.newsletter__title {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.newsletter__form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: flex-start;
+}
+
+.newsletter__form > input {
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.newsletter__form > button {
+    background: none;
+    border: 1px solid var(--hover-orange);
+    color: var(--hover-orange);
+    padding: 1rem 2rem;
+}
+
+.newsletter__form > button:hover {
+    background: var(--hover-orange);
+    border: 1px solid var(--hover-orange);
+    color: white;
+    padding: 1rem 2rem;
+}

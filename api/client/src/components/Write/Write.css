@@ -1,0 +1,43 @@
+.write{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vw;
+    margin: auto;
+}
+
+.write__fileLabel{
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#write__fileInput{
+    display: none;
+}
+
+#write__titleInput{
+    width: 80%;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+.write__textInput{
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    background: none;
+}
+
+.write__submit{
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    background: none;
+    font-size: 1.5rem;
+}

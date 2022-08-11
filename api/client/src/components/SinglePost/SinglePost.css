@@ -1,0 +1,13 @@
+.singlePost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singlePost__figure{
+    max-width: 500px;
+}
+
+.singlePost__image{
+    width: 100%;
+}

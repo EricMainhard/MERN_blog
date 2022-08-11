@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  --main-background: #f4f9f9;
+  --light-gray: #eee;
+  --hover-orange: #FFAD4D;
+}
+
+body {
+  font-size: 62.5%;
+}

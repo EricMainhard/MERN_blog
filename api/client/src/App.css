@@ -1,0 +1,8 @@
+.App{
+    background: var(--main-background);
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
